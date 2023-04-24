@@ -31,7 +31,7 @@ public class Main {
 
         int day = 0;
 
-        while (exit == false) {
+        while (dialog.exit == false) {
             day++;
             map.printMap(player);
             Title.timer(2000);

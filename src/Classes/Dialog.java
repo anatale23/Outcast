@@ -3,8 +3,11 @@ package Classes;
 import java.util.Scanner; //Scanner class for input
 import java.util.HashMap; //Key-Value WorldMap class
 import java.util.Arrays; //Class for dealing with arrays
+
 public class Dialog {
     private Player player;
+    public static boolean exit;
+    public static int promptLen;
     public Dialog (Player player) {
         this.player = player;
     }
@@ -21,7 +24,6 @@ public class Dialog {
         int pRow = player.getPlayerPosition()[0];
         int pCol = player.getPlayerPosition()[1];
 
-            boolean exit = false;
             String directions[] = new String[] {"n","e","w","s","north", "east", "west", "south"}; //String array for directions
             HashMap<String,String[]> mapCorr = new HashMap<>(); //WorldMap declaration to correlate actions with objects
             mapCorr.put("go", directions); //WorldMap storing of "go" key and directions string array value
@@ -30,12 +32,27 @@ public class Dialog {
                 Scanner playerInput = new Scanner (System.in);
                 String prompt = playerInput.nextLine();
                 String words[] = prompt.toLowerCase().split(" ");
-                int promptLength = words.length;
-                if(promptLength>1){
-                for (int i = 0; i<promptLength; i++){
+                promptLen = words.length;
+                if (promptLen==1){
+                    if (words[0].equals("exit")){exit=true;}
+                    if (words[0].equals("inv")||words[0].equals("inventory")){
+                        System.out.print("This is what you have: ");
+                        try {
+                            for (String item : player.getInventory()) {
+                                System.out.print(item + ", ");
+                            }
+                            System.out.println("\b\b.");
+                        }catch (NullPointerException e){
+                            System.out.println("nothing.");
+                        }
+                    }
+
+                }
+                if(promptLen>1){
+                for (int i = 0; i<promptLen; i++){
                     System.out.println(words[i]);
                 }
-                if (words[0].equals("exit")){exit=true;}
+
                 //if (words[0].equals("get")){
                 //    if (Arrays.asList(word[1]).contains(word[1]))
                     //check if word[1] is both in the player's location and in collectableItems

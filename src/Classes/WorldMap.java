@@ -70,9 +70,9 @@ public class WorldMap {
     private static ArrayList<ArrayList<ArrayList<String>>> visibleObjects = new ArrayList<ArrayList<ArrayList<String>>>();
 
     public static void populateItems(){
-                for (int i = 0; i < 5; i++) {
+                for (int i = 0; i < row; i++) {
             visibleObjects.add(new ArrayList<ArrayList<String>>());
-            for (int j = 0; j < 10; j++) {
+            for (int j = 0; j < col; j++) {
                 visibleObjects.get(i).add(new ArrayList<String>());
                 visibleObjects.get(i).get(j).addAll(Arrays.asList("nothing")); // Add an ArrayList of items to the ArrayList at position i, j
             }

@@ -26,7 +26,16 @@ public class Player {
     }
 
     //--------------------inventory----------------------
-    private static ArrayList<String>[] inventory;
+    private static ArrayList<String> inventory;
+    public static void setInventory(ArrayList<String> newInventory) {
+
+        inventory = newInventory;
+    }
+
+    public static ArrayList<String> getInventory() {
+
+        return inventory;
+    }
 
     //------------------collectableItems-----------------
 
