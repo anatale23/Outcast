@@ -8,11 +8,11 @@ public class Main {
         Player player = new Player();
         WorldMap map = new WorldMap(player);
         Dialog dialog = new Dialog(player);
-        int pRow = player.getPlayerPosition()[0];
-        int pCol = player.getPlayerPosition()[1];
+        int pRow;
+        int pCol;
 
         // this array contains pointers for arrays like areaNames and areaDescriptions
-        int[][] pPointer = map.getParagraphPointer();
+        int[][] pPointer;
         // this array contains area names
         String[] areaNames = map.getAreaNames();
         // this array contains area descriptions
@@ -36,6 +36,9 @@ public class Main {
             map.printMap(player);
             Title.timer(2000);
             System.out.println("DAY " + day + ":");
+            pRow = player.getPlayerPosition()[0];
+            pCol = player.getPlayerPosition()[1];
+            pPointer = map.getParagraphPointer();
             System.out.println(areaNames[pPointer[pRow][pCol]]);
             System.out.println(areaDescription[pPointer[pRow][pCol]]);
             System.out.println();
