@@ -1,0 +1,11 @@
+You stand in a mountainous region covered with diverse dark stones.
+You can see a stream nearby.
+The temperature is warm and the sky is partially cloudy.<end>
+
+You stand in a hilly terrain replete with smooth purplish stones.
+You can see a waterfall nearby.
+The temperature is somewhat warm and the sky is partially cloudy.<end>
+
+You stand in a hilly area dotted with trees and wildflowers.
+You can see a bog not too far away.
+The temperature is hot and the sky is partially cloudy.<end>

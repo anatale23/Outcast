@@ -1,0 +1,14 @@
+You landed up on OUTLAST!
+Your endeavour is to survive in this hostile land.
+Explore it and reveal its secrets. Are you skilled
+to remain alive and solve the riddles? We'll see...
+--------------------------------------------------
+Write HELP if you need info about the game, EXIT if
+you want to terminate prematurely the adventure.
+
+MAP LEGEND:
+Ѭ - Your location
+█ - Unexplored area
+▒ - Plains      ░ - Desert      ▓ - Forest
+^ - Hills       Δ - Mountain    ≈ - Water
+

@@ -1,0 +1,15 @@
+plain	plain	plain	plain	plain	plain	plain	plain	plain	water	water	hills	plain	plain	plain	plain	plain	plain	plain	plain
+plain	plain	plain	plain	plain	plain	plain	plain	water	water	hills	mount	hills	plain	plain	plain	dwell	mount	plain	plain
+plain	plain	plain	plain	plain	plain	plain	plain	hills	mount	mount	mount	mount	hills	plain	plain	plain	plain	plain	forest
+plain	plain	plain	mount	plain	plain	plain	plain	plain	cave	hills	hills	hills	desert	desert	mount	mount	forest	forest	forest
+wall	wall	desert	desert	wall	wall	plain	plain	plain	plain	plain	plain	plain	plain	plain	water	mount	forest	forest	forest
+plain	plain	plain	wall	wall	cave	plain	plain	plain	water	bridge	water	water	dwell	plain	plain	forest	forest	plain	plain
+plain	plain	plain	forest	forest	plain	plain	plain	water	water	plain	plain	plain	plain	plain	plain	plain	plain	plain	plain
+forest	plain	plain	forest	plain	plain	water	water	plain	plain	plain	plain	plain	plain	plain	plain	plain	dwell	forest	forest
+forest	forest	forest	plain	plain	water	plain	plain	plain	plain	mount	mount	plain	plain	plain	forest	forest	forest	forest	forest
+forest	forest	plain	plain	plain	water	water	plain	plain	water	mount	mount	mount	desert	forest	forest	forest	forest	forest	forest
+forest	plain	plain	plain	plain	plain	plain	water	water	plain	plain	mount	plain	plain	plain	plain	forest	forest	forest	forest
+plain	plain	plain	plain	plain	dwell	water	water	plain	plain	plain	plain	desert	desert	desert	desert	desert	desert	forest	forest
+plain	plain	plain	plain	plain	plain	bridge	plain	plain	plain	desert	desert	desert	desert	desert	desert	desert	desert	desert	desert
+desert	desert	mount	mine	mount	desert	desert	water	water	plain	desert	desert	desert	desert	desert	desert	desert	desert	desert	desert
+mount	mount	mount	mount	mount	desert	desert	water	water	water	plain	desert	desert	desert	desert	desert	desert	desert	desert	desert
